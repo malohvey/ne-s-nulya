@@ -407,7 +407,7 @@
     .action-panel{--screen-bg:url('assets/v3/03_everyday_horizontal.png')}.action-panel .micro-action{max-width:820px;margin:18px auto 0}.action-panel>h2{max-width:780px;margin:12px auto 8px;text-align:center}.action-panel>.action-intro{max-width:760px;margin:0 auto 18px;text-align:center;color:#45524e;line-height:1.5}.action-panel>.action-intro strong{display:block;margin-top:8px;color:#24332f}.action-panel .action-followup{max-width:820px;margin:18px auto 0}
     .action-panel .micro-action.missing{outline:3px solid rgba(204,80,57,.36);box-shadow:0 0 0 7px rgba(255,255,255,.38)}.action-panel #action-error{max-width:820px;margin:9px auto 0;padding:11px 14px;border-radius:12px;background:rgba(255,241,235,.92)}
     .hero{grid-template-columns:minmax(0,680px) 1fr;align-items:start;background:linear-gradient(90deg,rgba(255,252,244,.97) 0%,rgba(255,252,244,.91) 42%,rgba(255,252,244,.38) 61%,rgba(255,252,244,.05) 100%),url('assets/v3/01_desk_horizontal.png') center/cover no-repeat}
-    .hero-main-copy{padding-top:8px}
+    .hero-main-copy{position:relative;top:-24px;padding-top:8px}
     .hero-main-copy .lead{max-width:585px;margin-bottom:10px;line-height:1.48}
     .hero-main-copy .lead p{margin:0 0 13px}
     .hero-main-copy .lead p:last-child{margin-bottom:0}
@@ -522,13 +522,13 @@
       html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       body,.app,.shell,main,.screen,.panel{max-width:100%;min-width:0}
       .hero{display:flex;flex-direction:column;padding:24px 18px;background-image:linear-gradient(180deg,rgba(255,252,244,.84) 0%,rgba(255,252,244,.78) 58%,rgba(255,252,244,.68) 100%),url('assets/v3/01_desk_vertical.png');background-position:center,58% -340px;background-size:cover,auto 940px;background-repeat:no-repeat}
-      .hero-main-copy{order:1;width:100%;padding-top:0}
+      .hero-main-copy{order:1;top:0;width:100%;padding-top:0}
       .hero-showcase-section{order:2;width:100%;margin-top:24px}
       .hero h1{font-size:clamp(28px,9.1vw,36px);line-height:1.01;margin:10px 0 8px}
       .hero-main-promise,.hero-main-promise:last-child{width:100%;font-size:.75em!important;transform:none}
       .hero-main-copy .lead{max-width:none;color:#26312e;font-size:14px;line-height:1.5;text-shadow:0 1px 10px rgba(255,255,255,.92)}
       .hero-main-copy .lead p{margin-bottom:12px}
-      .hero-main-copy .lead br{display:none}
+      .hero-main-copy .lead br{display:none}.hero-main-copy .lead br.keep-mobile-break{display:block}
       .hero-reasons{font-size:14px;line-height:1.5;text-shadow:0 1px 10px rgba(255,255,255,.92)}.hero-reasons li{margin-bottom:10px}
       .hero-main-copy .hero-micro{display:inline-flex;margin:5px 0 0;padding:7px 10px;border:1px solid rgba(255,255,255,.9);border-radius:999px;background:rgba(255,255,255,.78);color:#43504c;font-size:10px;font-weight:700;box-shadow:0 5px 14px rgba(41,61,56,.08)}
 
@@ -683,7 +683,7 @@
           <div class="hero-main-copy">
             <h1><span class="hero-title-line">НЕ С НУЛЯ</span><span class="hero-title-line accent hero-main-promise">ЗА ЧТО ХВАТАТЬСЯ</span><span class="hero-title-line accent hero-main-promise">В ПЕРВУЮ ОЧЕРЕДЬ?</span></h1>
             <div class="gold-rule"></div>
-            <div class="lead"><p><strong>Хочется СРАЗУ ВСЕГО: работу интереснее, доход больше,<br>тело красивее, отношения лучше, образ жизни достойнее.<br>С чего начать — непонятно.</strong></p><p><strong>Особенно когда:</strong></p><ul class="hero-reasons"><li><strong>действовать по-старому уже не получается</strong><br>— <em>что именно изменить, не ясно</em></li><li><strong>обстоятельства изменились</strong> — <em>нужно заново понять,<br>что оставить, а что уже не подходит</em></li><li><strong>уже много знаешь, умеешь и пробовал</strong><br>— <em>и вариантов становится только больше</em></li></ul><p><strong>И совсем нет желания снова потратить силы не туда</strong>,<br>а потом понять, что главное было совсем в другом.</p></div>
+            <div class="lead"><p><strong>Хочется СРАЗУ ВСЕГО: работу интереснее, доход больше,<br> тело красивее, отношения лучше, образ жизни достойнее.<br class="keep-mobile-break"> С чего начать — непонятно.</strong></p><p><strong>Особенно когда:</strong></p><ul class="hero-reasons"><li><strong>действовать по-старому уже не получается</strong><br> — <em>что именно изменить, не ясно</em></li><li><strong>обстоятельства изменились</strong> — <em>нужно заново понять,<br> что оставить, а что уже не подходит</em></li><li><strong>уже много знаешь, умеешь и пробовал</strong><br> — <em>и вариантов становится только больше</em></li></ul><p><strong>И совсем нет желания снова потратить силы не туда</strong>,<br> а потом понять, что главное было совсем в другом.</p></div>
             <p class="micro hero-micro"><span>быстро · бесплатно · без регистрации</span></p>
           </div>
           <div class="hero-showcase-section">
